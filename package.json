@@ -1,0 +1,30 @@
+{
+  "name": "tomato-food-ordering-pwa",
+  "version": "1.0.0",
+  "description": "PWA for food ordering system.",
+  "main": "server.js",
+  "scripts": {
+    "test" : "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js",
+    "server" : "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyPatel9881/tomato-food-ordering-PWA.git"
+  },
+  "author": "DIVY PATEL <divy9881@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivyPatel9881/tomato-food-ordering-PWA/issues"
+  },
+  "homepage": "https://github.com/DivyPatel9881/tomato-food-ordering-PWA#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
