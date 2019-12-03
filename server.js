@@ -1,9 +1,12 @@
 let express = require("express")
 let bodyParser = require("body-parser")
+let testRouter = require("./routes/home")
 
 let app = express()
 
 app.use(bodyParser.urlencoded({extended:true}))
+
+app.use(testRouter)
 
 console.log(__dirname+"static")
 app.use(express.static(__dirname+"static"))
