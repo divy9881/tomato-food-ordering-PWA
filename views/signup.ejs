@@ -1,0 +1,30 @@
+<%- include("./partials/header.ejs") %>
+        <link rel="stylesheet" href="/css/signup.css">
+        <title> Login </title>
+    </head>
+    <body>
+        <%- include("./partials/navbar.ejs") %>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-6 jumbotron">
+                    <p class="login-header">SIGN-UP ON <img src="/assets/logos/tomato-1013-993.png" class="login-brand-logo"><p>   
+                    <form>
+                        <div class="form-group">
+                            <label for="username"></label>
+                            <input type="text" class="form-control" id="username" placeholder="Username" name="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password"></label>
+                            <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Sign-up</button>
+                    </form>
+                </div>
+                <div class="col-lg-3">
+                </div>
+            </div>
+        </div>
+    </body>
+<%- include("./partials/footer.ejs") %>

@@ -1,0 +1,24 @@
+.btn{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:10%;
+    padding-right:10%;
+    margin-top:10%;
+}
+
+.submit-btn{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.login-brand-logo{
+    width:10%;
+    border-radius:10%;
+}
+
+.container .row .col-lg-6 .login-header{
+    text-align:center;
+    letter-spacing:0.1em;
+    font-weight : bold;
+}
