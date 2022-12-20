@@ -20,7 +20,7 @@
   "homepage": "https://github.com/DivyPatel9881/tomato-food-ordering-PWA#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
-    "ejs": "^3.0.1",
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
     "express-sanitizer": "^1.0.6"
   },
